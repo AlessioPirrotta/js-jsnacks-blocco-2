@@ -8,9 +8,8 @@ let frutti = ["Mela", "Banana", "Arancia", "Kiwi", "Uva", "Fragola"]
 let colori = ["Rosso", "Blu", "Verde", "Giallo"]
 let buttonA= document.getElementById("btn")
 let inserisciColore;
-let i=0
 
-for(colori[i] ; frutti.length !== colori.length; i++){
+for(let i=0 ; frutti.length !== colori.length; i++){
  inserisciColore =  prompt("inserisci un colore")
  colori.push (inserisciColore)
  console.log(colori)

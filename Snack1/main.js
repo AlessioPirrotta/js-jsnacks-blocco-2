@@ -7,10 +7,10 @@
 
 let listaNumeri= []
 let somma = 0
-i=0
+let i=0
 
 
-while (somma <= 50) {
+while (somma < 50) {
     let input= prompt("scrivi un numero minore di 50")
     let numero= parseInt(input)
     listaNumeri.push(numero)

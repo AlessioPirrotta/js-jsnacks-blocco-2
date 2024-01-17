@@ -21,10 +21,11 @@ function randomNum(min, max) {
     return Math.floor(Math.random() * (max - min +1) + min); 
   }
 
-let indovinaNumero;
+  // forse di questo non c'è bisogno 
+let indovinaNumero; 
 
 while (indovinaNumero !== numero) { 
-
+        // parseInt(prompt("prova"))
     let indovinaNumero = prompt("Indovina il numero da 1 a 100");
 
     if (parseInt(indovinaNumero) < numero) {
@@ -35,6 +36,8 @@ while (indovinaNumero !== numero) {
         risultato.innerHTML = "Numero esatto!";
         break; 
     }
+
+    // prova a mettere l'else direttamente
 
     i++;
 }
